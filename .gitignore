@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Build
+build/
+out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Data
+data/
+
+# Visual Studio
+.vs/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Windows
+Thumbs.db
+*.exe
+
+# Results
+results/*
+!results/plots/
+!results/plots/*.png
+!results/bench.csv
